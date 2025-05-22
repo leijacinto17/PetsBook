@@ -1,6 +1,0 @@
-@PetsBook.API_HostAddress = http://localhost:5195
-
-GET {{PetsBook.API_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
