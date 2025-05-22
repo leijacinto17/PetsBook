@@ -94,7 +94,7 @@ namespace PetsBook.API.Extensions.ServiceExtension
         public static void ConfigureDataBaseContext(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<RepositoryContext>(options =>
-                              options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("PetsBook.API")));
+                              options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("Infrastructure")));
         }
 
         public static void ConfigureTokenTimeSpan(this IServiceCollection services)
