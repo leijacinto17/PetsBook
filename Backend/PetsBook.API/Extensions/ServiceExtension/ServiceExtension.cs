@@ -1,13 +1,13 @@
-﻿using Contracts;
+﻿using System.Text;
+using Contracts;
 using Entities;
+using Entities.Models;
 using Entities.Models.Authorization;
-using Entities.Models.User;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Repository;
-using System.Text;
 
 namespace PetsBook.API.Extensions.ServiceExtension
 {
@@ -38,6 +38,7 @@ namespace PetsBook.API.Extensions.ServiceExtension
         public static void ConfigureRepositoryWrapper(this IServiceCollection services)
         {
             services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
         }
 
         public static void ConfigureIdentityFramework(this IServiceCollection services)

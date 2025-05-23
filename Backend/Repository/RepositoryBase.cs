@@ -22,14 +22,14 @@ namespace Repository
             return RepositoryContext.Set<T>().Where(expression);
         }
 
-        public T? Find(object id)
+        public async Task<T?> FindAsync(object id)
         {
-            return RepositoryContext.Set<T>().Find(id);
+            return await RepositoryContext.Set<T>().FindAsync(id);
         }
 
-        public void Create(T entity)
+        public async Task CreateAsync(T entity)
         {
-            RepositoryContext.Set<T>().Add(entity);
+            await RepositoryContext.Set<T>().AddAsync(entity);
         }
 
         public void Update(T entity)
@@ -40,11 +40,6 @@ namespace Repository
         public void Delete(T entity)
         {
             RepositoryContext.Set<T>().Remove(entity);
-        }
-
-        public void Save()
-        {
-            RepositoryContext.SaveChanges();
         }
     }
 }
