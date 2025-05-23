@@ -1,8 +1,10 @@
-﻿using Entities.Models;
+﻿using System.Security.Cryptography;
+using Entities.Models;
 using Entities.Models.Authorization;
 using Entities.Models.Feeds;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 
 namespace Entities
 {
@@ -21,8 +23,12 @@ namespace Entities
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<Reaction>()
-                   .HasIndex(l => new { l.UserId, l.PostId })
-                   .IsUnique();
+             .HasIndex(r => new { r.UserId, r.PostId })
+             .IsUnique();
+
+            builder.Entity<Reaction>()
+                   .Property(r => r.ReactionType)
+                   .HasConversion<int>();
 
             // User -> Posts (Cascade delete posts when user is deleted)
             builder.Entity<User>()
@@ -31,19 +37,19 @@ namespace Entities
                    .HasForeignKey(p => p.UserId)
                    .OnDelete(DeleteBehavior.Cascade);
 
-            // Post -> Likes (Cascade delete likes when post is deleted)
+            // Post -> Reactions (Restrict to avoid multiple cascade paths)
             builder.Entity<Post>()
                    .HasMany(p => p.Reactions)
-                   .WithOne(l => l.Post)
-                   .HasForeignKey(l => l.PostId)
-                   .OnDelete(DeleteBehavior.Cascade);
+                   .WithOne(r => r.Post)
+                   .HasForeignKey(r => r.PostId)
+                   .OnDelete(DeleteBehavior.Restrict); 
 
-            // User -> Likes (Cascade delete likes when user is deleted)
+            // User -> Reactions (Set UserId to null when user is deleted)
             builder.Entity<User>()
                    .HasMany(u => u.Reactions)
-                   .WithOne(l => l.User)
-                   .HasForeignKey(l => l.UserId)
-                   .OnDelete(DeleteBehavior.Cascade);
+                   .WithOne(r => r.User)
+                   .HasForeignKey(r => r.UserId)
+                   .OnDelete(DeleteBehavior.SetNull);
 
             // Post -> Attachments (Cascade delete attachments when post is deleted)
             builder.Entity<Post>()
@@ -56,6 +62,9 @@ namespace Entities
         }
 
         // DbSets for other entities
-        // public DbSet<SomeEntity> SomeEntities { get; set; }
+        public DbSet<Post> Posts { get; set; }
+        public DbSet<Attachment> Attachments { get; set; }
+        public DbSet<Reaction> Reactions { get; set; }
+
     }
 }

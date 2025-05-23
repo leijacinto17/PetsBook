@@ -10,9 +10,8 @@ namespace Entities.Models.Feeds
         public required string Content { get; set; }
         public DateTimeOffset CreatedAt { get; set; }
 
-
-        public virtual required User User { get; set; }
-        public virtual ICollection<Reaction> Reactions { get; set; } = [];
-        public virtual ICollection<Attachment> Attachments { get; set; } = [];
+        public virtual User User { get; set; } = null!;
+        public virtual ICollection<Reaction> Reactions { get; set; } = new HashSet<Reaction>();
+        public virtual ICollection<Attachment> Attachments { get; set; } = new HashSet<Attachment>();
     }
 }

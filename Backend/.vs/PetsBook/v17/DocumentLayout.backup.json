@@ -3,44 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7658A21A-2820-4A3B-91BA-85944F88D2D4}|Entities\\Entities.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\entities\\models\\feeds\\reaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7658A21A-2820-4A3B-91BA-85944F88D2D4}|Entities\\Entities.csproj|solutionrelative:entities\\models\\feeds\\reaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7658A21A-2820-4A3B-91BA-85944F88D2D4}|Entities\\Entities.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\entities\\models\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7658A21A-2820-4A3B-91BA-85944F88D2D4}|Entities\\Entities.csproj|solutionrelative:entities\\models\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7658A21A-2820-4A3B-91BA-85944F88D2D4}|Entities\\Entities.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\entities\\models\\feeds\\reaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7658A21A-2820-4A3B-91BA-85944F88D2D4}|Entities\\Entities.csproj|solutionrelative:entities\\models\\feeds\\reaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7658A21A-2820-4A3B-91BA-85944F88D2D4}|Entities\\Entities.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\entities\\models\\feeds\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7658A21A-2820-4A3B-91BA-85944F88D2D4}|Entities\\Entities.csproj|solutionrelative:entities\\models\\feeds\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7658A21A-2820-4A3B-91BA-85944F88D2D4}|Entities\\Entities.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\entities\\enums\\reactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7658A21A-2820-4A3B-91BA-85944F88D2D4}|Entities\\Entities.csproj|solutionrelative:entities\\enums\\reactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7658A21A-2820-4A3B-91BA-85944F88D2D4}|Entities\\Entities.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\entities\\models\\feeds\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7658A21A-2820-4A3B-91BA-85944F88D2D4}|Entities\\Entities.csproj|solutionrelative:entities\\models\\feeds\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7658A21A-2820-4A3B-91BA-85944F88D2D4}|Entities\\Entities.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\entities\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7658A21A-2820-4A3B-91BA-85944F88D2D4}|Entities\\Entities.csproj|solutionrelative:entities\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\contracts\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|solutionrelative:contracts\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|solutionrelative:repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\contracts\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|solutionrelative:contracts\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\repository\\repositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|solutionrelative:repository\\repositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|solutionrelative:repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\repository\\repositories\\reactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\reactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\repository\\repositories\\attachmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\attachmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\repository\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\contracts\\irepositories\\ireactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|solutionrelative:contracts\\irepositories\\ireactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\contracts\\irepositories\\iattachmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|solutionrelative:contracts\\irepositories\\iattachmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7658A21A-2820-4A3B-91BA-85944F88D2D4}|Entities\\Entities.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\entities\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7658A21A-2820-4A3B-91BA-85944F88D2D4}|Entities\\Entities.csproj|solutionrelative:entities\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB7DD79A-8612-43A3-B2D1-5C4BAF577EBE}|PetsBook.API\\PetsBook.API.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\petsbook.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB7DD79A-8612-43A3-B2D1-5C4BAF577EBE}|PetsBook.API\\PetsBook.API.csproj|solutionrelative:petsbook.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\contracts\\irepositories\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|solutionrelative:contracts\\irepositories\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\contracts\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|solutionrelative:contracts\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7658A21A-2820-4A3B-91BA-85944F88D2D4}|Entities\\Entities.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\entities\\enums\\reactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7658A21A-2820-4A3B-91BA-85944F88D2D4}|Entities\\Entities.csproj|solutionrelative:entities\\enums\\reactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\contracts\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|solutionrelative:contracts\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\contracts\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|solutionrelative:contracts\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB7DD79A-8612-43A3-B2D1-5C4BAF577EBE}|PetsBook.API\\PetsBook.API.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\petsbook.api\\extensions\\serviceextension\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,14 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AB7DD79A-8612-43A3-B2D1-5C4BAF577EBE}|PetsBook.API\\PetsBook.API.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\petsbook.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{AB7DD79A-8612-43A3-B2D1-5C4BAF577EBE}|PetsBook.API\\PetsBook.API.csproj|solutionrelative:petsbook.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\contracts\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|solutionrelative:contracts\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7658A21A-2820-4A3B-91BA-85944F88D2D4}|Entities\\Entities.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\entities\\models\\authorization\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,20 +103,12 @@
       "RelativeMoniker": "D:0:0:{AB7DD79A-8612-43A3-B2D1-5C4BAF577EBE}|PetsBook.API\\PetsBook.API.csproj|solutionrelative:petsbook.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|solutionrelative:repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AB7DD79A-8612-43A3-B2D1-5C4BAF577EBE}|PetsBook.API\\PetsBook.API.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\petsbook.api\\extensions\\datainitializer\\datainitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB7DD79A-8612-43A3-B2D1-5C4BAF577EBE}|PetsBook.API\\PetsBook.API.csproj|solutionrelative:petsbook.api\\extensions\\datainitializer\\datainitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\contracts\\irepositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81EF7B04-F1FE-43F4-8943-2DBC6EF2A6CE}|Contracts\\Contracts.csproj|solutionrelative:contracts\\irepositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|c:\\users\\mark.jacinto\\documents\\application\\petsbook\\backend\\repository\\repositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{186393FD-8E9C-473F-B424-E182106161E7}|Repository\\Repository.csproj|solutionrelative:repository\\repositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,56 +118,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReactionType.cs",
-              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\Enums\\ReactionType.cs",
-              "RelativeDocumentMoniker": "Entities\\Enums\\ReactionType.cs",
-              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\Enums\\ReactionType.cs",
-              "RelativeToolTip": "Entities\\Enums\\ReactionType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ReactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Repository\\Repositories\\ReactionRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\ReactionRepository.cs",
+              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Repository\\Repositories\\ReactionRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\ReactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAACLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T15:15:20.627Z",
+              "WhenOpened": "2025-05-23T15:39:26.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AttachmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Repository\\Repositories\\AttachmentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\AttachmentRepository.cs",
+              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Repository\\Repositories\\AttachmentRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\AttachmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T15:38:19.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IReactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Contracts\\IRepositories\\IReactionRepository.cs",
+              "RelativeDocumentMoniker": "Contracts\\IRepositories\\IReactionRepository.cs",
+              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Contracts\\IRepositories\\IReactionRepository.cs",
+              "RelativeToolTip": "Contracts\\IRepositories\\IReactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T15:37:57.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\PetsBook.API\\appsettings.json",
-              "RelativeDocumentMoniker": "PetsBook.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\PetsBook.API\\appsettings.json",
-              "RelativeToolTip": "PetsBook.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-23T14:51:42.854Z",
+              "Title": "IAttachmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Contracts\\IRepositories\\IAttachmentRepository.cs",
+              "RelativeDocumentMoniker": "Contracts\\IRepositories\\IAttachmentRepository.cs",
+              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Contracts\\IRepositories\\IAttachmentRepository.cs",
+              "RelativeToolTip": "Contracts\\IRepositories\\IAttachmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T15:37:22.424Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Repository\\Repositories\\PostRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\PostRepository.cs",
+              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Repository\\Repositories\\PostRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\PostRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T15:24:45.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Reaction.cs",
               "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\Models\\Feeds\\Reaction.cs",
               "RelativeDocumentMoniker": "Entities\\Models\\Feeds\\Reaction.cs",
-              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\Models\\Feeds\\Reaction.cs*",
-              "RelativeToolTip": "Entities\\Models\\Feeds\\Reaction.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\Models\\Feeds\\Reaction.cs",
+              "RelativeToolTip": "Entities\\Models\\Feeds\\Reaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T14:25:59.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Attachment.cs",
               "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\Models\\Feeds\\Attachment.cs",
               "RelativeDocumentMoniker": "Entities\\Models\\Feeds\\Attachment.cs",
               "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\Models\\Feeds\\Attachment.cs",
               "RelativeToolTip": "Entities\\Models\\Feeds\\Attachment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T14:21:16.714Z",
               "EditorCaption": ""
@@ -156,40 +219,27 @@
               "RelativeDocumentMoniker": "Entities\\Models\\Feeds\\Post.cs",
               "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\Models\\Feeds\\Post.cs",
               "RelativeToolTip": "Entities\\Models\\Feeds\\Post.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T14:17:57.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Repository\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "Repository\\UnitOfWork.cs",
               "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Repository\\UnitOfWork.cs",
               "RelativeToolTip": "Repository\\UnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T14:08:09.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Contracts\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Contracts\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Contracts\\IUnitOfWork.cs",
-              "RelativeToolTip": "Contracts\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:42:08.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\PetsBook.API\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "PetsBook.API\\Controllers\\UsersController.cs",
@@ -202,20 +252,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Contracts\\IRepositoryBase.cs",
-              "RelativeDocumentMoniker": "Contracts\\IRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Contracts\\IRepositoryBase.cs",
-              "RelativeToolTip": "Contracts\\IRepositoryBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Repository\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "Repository\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Repository\\RepositoryBase.cs",
+              "RelativeToolTip": "Repository\\RepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T08:43:43.378Z",
+              "WhenOpened": "2025-05-23T08:43:30.369Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
+              "Title": "RepositoryWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Repository\\RepositoryWrapper.cs",
+              "RelativeDocumentMoniker": "Repository\\RepositoryWrapper.cs",
+              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Repository\\RepositoryWrapper.cs",
+              "RelativeToolTip": "Repository\\RepositoryWrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T08:43:32.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\Models\\User\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\User\\User.cs",
+              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\Models\\User\\User.cs",
+              "RelativeToolTip": "Entities\\Models\\User\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T10:33:41.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Contracts\\IRepositories\\IPostRepository.cs",
+              "RelativeDocumentMoniker": "Contracts\\IRepositories\\IPostRepository.cs",
+              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Contracts\\IRepositories\\IPostRepository.cs",
+              "RelativeToolTip": "Contracts\\IRepositories\\IPostRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T15:25:42.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ReactionType.cs",
+              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\Enums\\ReactionType.cs",
+              "RelativeDocumentMoniker": "Entities\\Enums\\ReactionType.cs",
+              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\Enums\\ReactionType.cs",
+              "RelativeToolTip": "Entities\\Enums\\ReactionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T15:15:20.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Contracts\\IRepositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Contracts\\IRepositories\\IUserRepository.cs",
@@ -241,33 +343,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\Models\\Authorization\\Role.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\Authorization\\Role.cs",
-              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\Models\\Authorization\\Role.cs",
-              "RelativeToolTip": "Entities\\Models\\Authorization\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "RepositoryContext.cs",
+              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\RepositoryContext.cs",
+              "RelativeDocumentMoniker": "Entities\\RepositoryContext.cs",
+              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\RepositoryContext.cs",
+              "RelativeToolTip": "Entities\\RepositoryContext.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAcwEIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T10:33:40.682Z",
+              "WhenOpened": "2025-05-23T08:43:19.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\Models\\User\\User.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\User\\User.cs",
-              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\Models\\User\\User.cs",
-              "RelativeToolTip": "Entities\\Models\\User\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAA2AAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Contracts\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Contracts\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Contracts\\IUnitOfWork.cs",
+              "RelativeToolTip": "Contracts\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T10:33:41.974Z",
+              "WhenOpened": "2025-05-23T13:42:08.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
+              "Title": "IRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Contracts\\IRepositoryBase.cs",
+              "RelativeDocumentMoniker": "Contracts\\IRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Contracts\\IRepositoryBase.cs",
+              "RelativeToolTip": "Contracts\\IRepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T08:43:43.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\PetsBook.API\\appsettings.json",
+              "RelativeDocumentMoniker": "PetsBook.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\PetsBook.API\\appsettings.json",
+              "RelativeToolTip": "PetsBook.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-23T14:51:42.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "ServiceExtension.cs",
               "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\PetsBook.API\\Extensions\\ServiceExtension\\ServiceExtension.cs",
               "RelativeDocumentMoniker": "PetsBook.API\\Extensions\\ServiceExtension\\ServiceExtension.cs",
@@ -280,20 +408,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RepositoryContext.cs",
-              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\RepositoryContext.cs",
-              "RelativeDocumentMoniker": "Entities\\RepositoryContext.cs",
-              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\RepositoryContext.cs",
-              "RelativeToolTip": "Entities\\RepositoryContext.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAuwCwAAAArAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\Models\\Authorization\\Role.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\Authorization\\Role.cs",
+              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Entities\\Models\\Authorization\\Role.cs",
+              "RelativeToolTip": "Entities\\Models\\Authorization\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T08:43:19.177Z",
+              "WhenOpened": "2025-05-23T10:33:40.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\PetsBook.API\\Startup.cs",
               "RelativeDocumentMoniker": "PetsBook.API\\Startup.cs",
@@ -306,20 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Repository\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "Repository\\RepositoryBase.cs",
-              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Repository\\RepositoryBase.cs",
-              "RelativeToolTip": "Repository\\RepositoryBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T08:43:30.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "DataInitializer.cs",
               "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\PetsBook.API\\Extensions\\DataInitializer\\DataInitializer.cs",
               "RelativeDocumentMoniker": "PetsBook.API\\Extensions\\DataInitializer\\DataInitializer.cs",
@@ -331,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\PetsBook.API\\Program.cs",
               "RelativeDocumentMoniker": "PetsBook.API\\Program.cs",
@@ -344,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "IRepositoryWrapper.cs",
               "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Contracts\\IRepositoryWrapper.cs",
               "RelativeDocumentMoniker": "Contracts\\IRepositoryWrapper.cs",
@@ -353,18 +468,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T08:43:42.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RepositoryWrapper.cs",
-              "DocumentMoniker": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Repository\\RepositoryWrapper.cs",
-              "RelativeDocumentMoniker": "Repository\\RepositoryWrapper.cs",
-              "ToolTip": "C:\\Users\\mark.jacinto\\Documents\\Application\\PetsBook\\Backend\\Repository\\RepositoryWrapper.cs",
-              "RelativeToolTip": "Repository\\RepositoryWrapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T08:43:32.441Z"
             },
             {
               "$type": "Bookmark",

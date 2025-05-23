@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20250523151845_TablesForFeedPosts")]
+    [Migration("20250523160221_TablesForFeedPosts")]
     partial class TablesForFeedPosts
     {
         /// <inheritdoc />
@@ -118,14 +118,13 @@ namespace Infrastructure.Migrations
                     b.Property<DateTimeOffset>("LikeAt")
                         .HasColumnType("datetimeoffset");
 
-                    b.Property<int>("PostId")
+                    b.Property<int?>("PostId")
                         .HasColumnType("int");
 
                     b.Property<int>("ReactionType")
                         .HasColumnType("int");
 
                     b.Property<string>("UserId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
@@ -133,7 +132,8 @@ namespace Infrastructure.Migrations
                     b.HasIndex("PostId");
 
                     b.HasIndex("UserId", "PostId")
-                        .IsUnique();
+                        .IsUnique()
+                        .HasFilter("[UserId] IS NOT NULL AND [PostId] IS NOT NULL");
 
                     b.ToTable("Reaction");
                 });
@@ -336,14 +336,12 @@ namespace Infrastructure.Migrations
                     b.HasOne("Entities.Models.Feeds.Post", "Post")
                         .WithMany("Reactions")
                         .HasForeignKey("PostId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("Entities.Models.User", "User")
                         .WithMany("Reactions")
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("Post");
 

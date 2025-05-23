@@ -10,8 +10,8 @@ namespace Entities.Models
             
         }
 
-        public virtual ICollection<Reaction> Reactions { get; set; } = [];
-        public virtual ICollection<Post> Posts { get; set; } = [];
+        public virtual ICollection<Reaction> Reactions { get; set; } = new HashSet<Reaction>();
+        public virtual ICollection<Post> Posts { get; set; } = new HashSet<Post>();
 
     }
 }

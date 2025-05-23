@@ -59,8 +59,8 @@ namespace Infrastructure.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    PostId = table.Column<int>(type: "int", nullable: false),
+                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    PostId = table.Column<int>(type: "int", nullable: true),
                     ReactionType = table.Column<int>(type: "int", nullable: false),
                     LikeAt = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: false)
                 },
@@ -72,13 +72,13 @@ namespace Infrastructure.Migrations
                         column: x => x.UserId,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.SetNull);
                     table.ForeignKey(
                         name: "FK_Reaction_Post_PostId",
                         column: x => x.PostId,
                         principalTable: "Post",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
@@ -100,7 +100,8 @@ namespace Infrastructure.Migrations
                 name: "IX_Reaction_UserId_PostId",
                 table: "Reaction",
                 columns: new[] { "UserId", "PostId" },
-                unique: true);
+                unique: true,
+                filter: "[UserId] IS NOT NULL AND [PostId] IS NOT NULL");
         }
 
         /// <inheritdoc />
