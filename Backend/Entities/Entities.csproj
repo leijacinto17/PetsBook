@@ -8,13 +8,10 @@
 
   <ItemGroup>
     <Compile Remove="DTO\**" />
-    <Compile Remove="Enums\**" />
     <Compile Remove="ViewModels\**" />
     <EmbeddedResource Remove="DTO\**" />
-    <EmbeddedResource Remove="Enums\**" />
     <EmbeddedResource Remove="ViewModels\**" />
     <None Remove="DTO\**" />
-    <None Remove="Enums\**" />
     <None Remove="ViewModels\**" />
   </ItemGroup>
 

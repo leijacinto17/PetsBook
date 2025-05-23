@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Entities.Models.Feeds;
+using Microsoft.AspNetCore.Identity;
 
-namespace Entities.Models.User
+namespace Entities.Models
 {
     public class User : IdentityUser<string>
     {
@@ -8,5 +9,9 @@ namespace Entities.Models.User
         {
             
         }
+
+        public virtual ICollection<Reaction> Reactions { get; set; } = [];
+        public virtual ICollection<Post> Posts { get; set; } = [];
+
     }
 }
