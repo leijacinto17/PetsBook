@@ -1,11 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Contracts;
+using Entities.Models.Feeds;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PetsBook.API.Common;
 
 namespace PetsBook.API.Controllers
 {
     public class PostController : BaseApiController<PostController>
     {
-        public PostController(ILogger<PostController> logger) : base(logger) { }
+        public PostController(ILogger<PostController> logger, IUnitOfWork unitOfWork) : base(logger, unitOfWork) { }
 
         [HttpGet]
         public IActionResult TestLogging()
@@ -28,6 +31,37 @@ namespace PetsBook.API.Controllers
                 LogError(ex);
                 return StatusCode(500, "Something went wrong");
             }
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> TestGetPost()
+        {
+            var posts = await _unitOfWork.Post.FindAll().ToListAsync();
+
+            return Ok(new
+            {
+                Data = posts
+            });
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> TestCreatePost()
+        {
+            var post = new Post
+            {
+                UserId = "1c3e6044-3d1a-4c8e-a904-952bf74872cc",
+                Content = "This is for testing purposes only!",
+                CreatedAt = DateTimeOffset.UtcNow,
+            };
+
+            await _unitOfWork.Post.CreateAsync(post);
+            await _unitOfWork.SaveChangesAsync();
+
+            return Ok(new
+            {
+                Message = "Successfully created"
+            });
         }
     }
 }

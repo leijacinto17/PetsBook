@@ -1,5 +1,4 @@
-﻿using Contracts;
-using Contracts.IRepositories;
+﻿using Contracts.IRepositories;
 using Entities;
 using Entities.Models.Feeds;
 

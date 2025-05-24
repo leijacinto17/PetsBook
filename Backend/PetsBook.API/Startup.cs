@@ -1,5 +1,4 @@
 ﻿using PetsBook.API.Extensions.ServiceExtension;
-using System.Globalization;
 
 namespace PetsBook.API
 {

@@ -6,6 +6,8 @@ namespace Contracts
     {
         IUserRepository? User { get; }
         IPostRepository Post { get; }
+        IAttachmentRepository Attachment { get; }
+        IReactionRepository Reaction { get; }
 
         Task<bool> SaveChangesAsync();
     }
