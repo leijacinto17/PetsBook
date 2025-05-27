@@ -52,13 +52,16 @@ namespace Infrastructure.Migrations
                     b.ToTable("AspNetRoles", (string)null);
                 });
 
-            modelBuilder.Entity("Entities.Models.Feeds.Attachment", b =>
+            modelBuilder.Entity("Entities.Models.SocialFeed.Attachment", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTimeOffset>("CreatedDate")
+                        .HasColumnType("datetimeoffset");
 
                     b.Property<string>("FileUrl")
                         .IsRequired()
@@ -78,7 +81,7 @@ namespace Infrastructure.Migrations
                     b.ToTable("Attachment");
                 });
 
-            modelBuilder.Entity("Entities.Models.Feeds.Post", b =>
+            modelBuilder.Entity("Entities.Models.SocialFeed.Post", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -90,7 +93,7 @@ namespace Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTimeOffset>("CreatedAt")
+                    b.Property<DateTimeOffset>("CreatedDate")
                         .HasColumnType("datetimeoffset");
 
                     b.Property<string>("UserId")
@@ -104,7 +107,7 @@ namespace Infrastructure.Migrations
                     b.ToTable("Post");
                 });
 
-            modelBuilder.Entity("Entities.Models.Feeds.Reaction", b =>
+            modelBuilder.Entity("Entities.Models.SocialFeed.Reaction", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -112,7 +115,7 @@ namespace Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTimeOffset>("LikeAt")
+                    b.Property<DateTimeOffset>("CreatedDate")
                         .HasColumnType("datetimeoffset");
 
                     b.Property<int?>("PostId")
@@ -306,9 +309,9 @@ namespace Infrastructure.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("Entities.Models.Feeds.Attachment", b =>
+            modelBuilder.Entity("Entities.Models.SocialFeed.Attachment", b =>
                 {
-                    b.HasOne("Entities.Models.Feeds.Post", "Post")
+                    b.HasOne("Entities.Models.SocialFeed.Post", "Post")
                         .WithMany("Attachments")
                         .HasForeignKey("PostId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -317,7 +320,7 @@ namespace Infrastructure.Migrations
                     b.Navigation("Post");
                 });
 
-            modelBuilder.Entity("Entities.Models.Feeds.Post", b =>
+            modelBuilder.Entity("Entities.Models.SocialFeed.Post", b =>
                 {
                     b.HasOne("Entities.Models.User", "User")
                         .WithMany("Posts")
@@ -328,9 +331,9 @@ namespace Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Entities.Models.Feeds.Reaction", b =>
+            modelBuilder.Entity("Entities.Models.SocialFeed.Reaction", b =>
                 {
-                    b.HasOne("Entities.Models.Feeds.Post", "Post")
+                    b.HasOne("Entities.Models.SocialFeed.Post", "Post")
                         .WithMany("Reactions")
                         .HasForeignKey("PostId")
                         .OnDelete(DeleteBehavior.Restrict);
@@ -396,7 +399,7 @@ namespace Infrastructure.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Entities.Models.Feeds.Post", b =>
+            modelBuilder.Entity("Entities.Models.SocialFeed.Post", b =>
                 {
                     b.Navigation("Attachments");
 

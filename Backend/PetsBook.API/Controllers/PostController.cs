@@ -52,7 +52,6 @@ namespace PetsBook.API.Controllers
             {
                 UserId = "1c3e6044-3d1a-4c8e-a904-952bf74872cc",
                 Content = "This is for testing purposes only!",
-                CreatedAt = DateTimeOffset.UtcNow,
             };
 
             await _unitOfWork.Post.CreateAsync(post);
