@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Entities.Models.Feeds
+namespace Entities.Models.SocialFeed
 {
     [Table("Attachment")]
     public class Attachment

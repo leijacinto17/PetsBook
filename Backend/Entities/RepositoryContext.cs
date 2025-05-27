@@ -1,10 +1,8 @@
-﻿using System.Security.Cryptography;
-using Entities.Models;
+﻿using Entities.Models;
 using Entities.Models.Authorization;
-using Entities.Models.Feeds;
+using Entities.Models.SocialFeed;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Storage;
 
 namespace Entities
 {

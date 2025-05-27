@@ -1,5 +1,5 @@
 ﻿using Contracts;
-using Entities.Models.Feeds;
+using Entities.Models.SocialFeed;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PetsBook.API.Common;

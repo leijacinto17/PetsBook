@@ -1,4 +1,4 @@
-﻿using Entities.Models.Feeds;
+﻿using Entities.Models.SocialFeed;
 
 namespace Contracts.IRepositories
 {

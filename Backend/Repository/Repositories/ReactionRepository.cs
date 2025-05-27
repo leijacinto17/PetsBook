@@ -1,6 +1,6 @@
 ﻿using Contracts.IRepositories;
 using Entities;
-using Entities.Models.Feeds;
+using Entities.Models.SocialFeed;
 
 namespace Repository.Repositories
 {

@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using Entities.Enums;
 
-namespace Entities.Models.Feeds
+namespace Entities.Models.SocialFeed
 {
     [Table("Reaction")]
     public class Reaction
