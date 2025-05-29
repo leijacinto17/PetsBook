@@ -5,7 +5,9 @@ A social media platform for all fur parents
 # Backend
 
 .NET Core 9 Web API
-Ef Core Command
+
+#EF Core Command
+
 dotnet ef migrations <MigrationName> -p Infrastructure -s Petsbook.API
 
 # Frontend
