@@ -1,6 +1,7 @@
 ﻿using System.Linq.Expressions;
 using Core.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query.Internal;
 
 namespace Infrastructure.Data
 {
@@ -30,6 +31,7 @@ namespace Infrastructure.Data
 
         public void Update(T entity)
         {
+            context.Set<T>().Attach(entity);
             context.Entry(entity).State = EntityState.Modified;
         }
 
