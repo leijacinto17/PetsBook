@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\Posts\" />
+    <Compile Remove="DTOs\Posts\**" />
+    <EmbeddedResource Remove="DTOs\Posts\**" />
+    <None Remove="DTOs\Posts\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -15,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Entities\Entities.csproj" />
+    <ProjectReference Include="..\Core\Core.csproj" />
   </ItemGroup>
 
 </Project>

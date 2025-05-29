@@ -1,14 +1,10 @@
 ﻿using System.Diagnostics;
+using Core.Entities.Authorization;
 using Core.Entities.Identity;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.DependencyInjection;
+using Core.Interfaces;
 using Entities.Enums.Roles;
-using Entities.Models;
-using Entities.Models.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Diagnostics;
 
 namespace Infrastructure.Data.SeedData
 {

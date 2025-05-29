@@ -1,17 +1,17 @@
-﻿using Core.Entities.SocialFeed;
+﻿using Core.Entities.Identity;
+using Core.Entities.SocialFeed;
 using Core.Interfaces;
-using Entities.Models;
-using Entities.Models.SocialFeed;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PetsBook.API.Common;
 
 namespace PetsBook.API.Controllers
 {
-    public class PostController(ILogger<PostController> logger, IUnitOfWork unitOfWork)
-        : BaseApiController<PostController>(logger, unitOfWork)
+    public class PostController : BaseApiController<PostController>
     {
         public PostController(ILogger<PostController> logger, IUnitOfWork unitOfWork, UserManager<User> userManager) : base(logger, unitOfWork, userManager) { }
+
 
         [HttpGet]
         public IActionResult TestLogging()

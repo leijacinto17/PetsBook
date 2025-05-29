@@ -1,17 +1,17 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Presentation.ViewModels.User
+namespace PetsBook.API.ViewModels.User
 {
     public class LoginViewModel
     {
         [Required]
         [Display(Name = "Username")]
-        public string UserName { get; set; }
+        public required string UserName { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
-        public string Password { get; set; }
+        public required string Password { get; set; }
 
         [Display(Name = "Remember me?")]
         public bool RememberMe { get; set; }

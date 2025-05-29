@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petsbook.API", "PetsBook.API\Petsbook.API.csproj", "{AB7DD79A-8612-43A3-B2D1-5C4BAF577EBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Entities\Core.csproj", "{7658A21A-2820-4A3B-91BA-85944F88D2D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{7658A21A-2820-4A3B-91BA-85944F88D2D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{9B464ABD-33C6-46D7-BA08-1B317C123FE0}"
 EndProject
@@ -33,10 +33,6 @@ Global
 		{698FBF7E-7870-4F9C-84DF-942D1AAED15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{698FBF7E-7870-4F9C-84DF-942D1AAED15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{698FBF7E-7870-4F9C-84DF-942D1AAED15B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0FAD577F-B419-487D-BB65-B5E9E61B06F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0FAD577F-B419-487D-BB65-B5E9E61B06F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0FAD577F-B419-487D-BB65-B5E9E61B06F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0FAD577F-B419-487D-BB65-B5E9E61B06F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

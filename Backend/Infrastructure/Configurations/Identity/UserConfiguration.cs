@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Infrastructure.Configurations.SocialFeed
+namespace Infrastructure.Configurations.Identity
 {
     public class UserConfiguration : IEntityTypeConfiguration<User>
     {

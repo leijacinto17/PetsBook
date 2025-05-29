@@ -1,14 +1,14 @@
-﻿using Application.Jsons;
+﻿using System.IdentityModel.Tokens.Jwt;
+using Application.Jsons;
 using Application.Services;
-using Contracts;
-using Entities.Models;
+using Core.Entities.Identity;
+using Core.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using PetsBook.API.Common;
-using Presentation.ViewModels.User;
-using System.IdentityModel.Tokens.Jwt;
+using PetsBook.API.ViewModels.User;
 
 namespace Petsbook.API.Controllers
 {

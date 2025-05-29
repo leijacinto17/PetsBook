@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Presentation.ViewModels.User
+namespace PetsBook.API.ViewModels.User
 {
     public class RegisterViewModel
     {
@@ -13,5 +13,6 @@ namespace Presentation.ViewModels.User
         public string LastName { get; set; }
         public string Password { get; set; }
         public string PhoneNumber { get; set; }
+
     }
 }
