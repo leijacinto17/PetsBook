@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using Core.Entities.Identity;
 
-namespace Entities.Models.SocialFeed
+namespace Core.Entities.SocialFeed
 {
     [Table("Post")]
     public class Post : BaseEntity

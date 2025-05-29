@@ -1,15 +1,14 @@
-﻿using Contracts;
-using Entities.Models.SocialFeed;
+﻿using Core.Entities.SocialFeed;
+using Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PetsBook.API.Common;
 
 namespace PetsBook.API.Controllers
 {
-    public class PostController : BaseApiController<PostController>
+    public class PostController(ILogger<PostController> logger, IUnitOfWork unitOfWork)
+        : BaseApiController<PostController>(logger, unitOfWork)
     {
-        public PostController(ILogger<PostController> logger, IUnitOfWork unitOfWork) : base(logger, unitOfWork) { }
-
         [HttpGet]
         public IActionResult TestLogging()
         {

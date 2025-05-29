@@ -1,5 +1,7 @@
-using PetsBook.API.Extensions.DataInitializer;
 using System.Reflection;
+using Infrastructure.Data;
+using Infrastructure.Data.SeedData;
+using Microsoft.EntityFrameworkCore;
 
 namespace PetsBook.API
 {
@@ -19,10 +21,11 @@ namespace PetsBook.API
             using (var scope = host.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
-
+                var context = services.GetRequiredService<DataContext>();
                 var logger = services.GetRequiredService<ILogger<Program>>();
                 try
                 {
+                    await context.Database.MigrateAsync();
                     await DataInitializer.Seed(services); //<---Do your seeding here
                 }
                 catch (Exception ex)

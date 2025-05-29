@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace Entities.Models.Authorization
+namespace Core.Entities.Authorization
 {
     public class Role : IdentityRole<string>
     {

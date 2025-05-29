@@ -1,4 +1,4 @@
-﻿using Contracts.IRepositories;
+﻿using Core.Interfaces;
 using Entities;
 using Entities.Models;
 

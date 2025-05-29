@@ -1,7 +1,7 @@
-﻿using Entities.Models.SocialFeed;
+﻿using Core.Entities.SocialFeed;
 using Microsoft.AspNetCore.Identity;
 
-namespace Entities.Models
+namespace Core.Entities.Identity
 {
     public class User : IdentityUser<string>
     {

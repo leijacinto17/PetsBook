@@ -1,4 +1,4 @@
-﻿using Contracts;
+﻿using Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace PetsBook.API.Common

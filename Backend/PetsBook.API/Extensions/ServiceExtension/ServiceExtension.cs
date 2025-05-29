@@ -1,8 +1,8 @@
 ﻿using System.Text;
-using Contracts;
-using Entities;
-using Entities.Models;
-using Entities.Models.Authorization;
+using Core.Entities.Authorization;
+using Core.Entities.Identity;
+using Core.Interfaces;
+using Infrastructure.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -37,7 +37,6 @@ namespace PetsBook.API.Extensions.ServiceExtension
 
         public static void ConfigureRepositoryWrapper(this IServiceCollection services)
         {
-            services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
         }
 
@@ -63,7 +62,7 @@ namespace PetsBook.API.Extensions.ServiceExtension
                 options.Tokens.PasswordResetTokenProvider = TokenOptions.DefaultEmailProvider;
             })
             //.AddUserStore<User>()
-            .AddEntityFrameworkStores<RepositoryContext>()
+            .AddEntityFrameworkStores<DataContext>()
             .AddDefaultTokenProviders();
         }
 
@@ -94,7 +93,7 @@ namespace PetsBook.API.Extensions.ServiceExtension
 
         public static void ConfigureDataBaseContext(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<RepositoryContext>(options =>
+            services.AddDbContext<DataContext>(options =>
                               options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("Infrastructure")));
         }
 

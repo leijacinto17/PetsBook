@@ -1,12 +1,13 @@
 ﻿using System.Diagnostics;
-using Entities.Models;
+using Core.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace PetsBook.API.Extensions.DataInitializer
+namespace Infrastructure.Data.SeedData
 {
     public class DataInitializer
     {
-        public async static Task Seed(IServiceProvider serviceProvider)
+        public static async Task Seed(IServiceProvider serviceProvider)
         {
             var userManager = serviceProvider.GetRequiredService<UserManager<User>>();
 

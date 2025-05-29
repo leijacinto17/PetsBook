@@ -1,7 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
-using Entities.Enums;
+using Core.Entities.Identity;
+using Core.Enums;
 
-namespace Entities.Models.SocialFeed
+namespace Core.Entities.SocialFeed
 {
     [Table("Reaction")]
     public class Reaction : BaseEntity
