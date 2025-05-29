@@ -1,6 +1,11 @@
-﻿using System.Diagnostics;
+﻿using Contracts;
+using Entities.Enums.Roles;
 using Entities.Models;
+using Entities.Models.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Diagnostics;
 
 namespace PetsBook.API.Extensions.DataInitializer
 {
@@ -8,8 +13,58 @@ namespace PetsBook.API.Extensions.DataInitializer
     {
         public async static Task Seed(IServiceProvider serviceProvider)
         {
+            // Get DataContext Service
+            var context = serviceProvider.GetRequiredService<IUnitOfWork>();
+
+            //Get Usermanager Service
             var userManager = serviceProvider.GetRequiredService<UserManager<User>>();
 
+            // Check if database contains anything
+            // If not than seed data
+            if (context.User.CheckAnyUsers())
+            {
+                return; // Already seeded
+            }
+
+            await CreateRoles(serviceProvider);
+            await CreateFakeUsersAsync(serviceProvider, userManager);
+
+
+        }
+
+        public async static Task CreateRoles(IServiceProvider serviceProvider)
+        {
+            RoleManager<Role> roleManager = serviceProvider.GetRequiredService<RoleManager<Role>>();
+
+            string[] roles = [
+                RoleType.User.ToString(),
+                RoleType.Admin.ToString(),
+                RoleType.SuperAdmin.ToString(),
+            ];
+
+            foreach (var role in roles)
+            {
+                if (!await roleManager.RoleExistsAsync(role))
+                {
+                    try
+                    {
+                        var roleName = new Role()
+                        {
+                            Id = Guid.NewGuid().ToString(),
+                            Name = role,
+                        };
+                        await roleManager.CreateAsync(roleName);
+                    }
+                    catch 
+                    {
+                        throw;
+                    }
+                }
+            }
+        }
+
+        public async static Task CreateFakeUsersAsync(IServiceProvider serviceProvider, UserManager<User> userManager)
+        {
             //check dev user if existing
             var devUser = await userManager.FindByEmailAsync("devuser@development.com");
             if (devUser == null)
@@ -28,6 +83,9 @@ namespace PetsBook.API.Extensions.DataInitializer
 
                     if (result.Succeeded)
                     {
+                        // Add role for super admin
+                        user.AddRole(userManager, RoleType.SuperAdmin.ToString());
+
                         Debug.WriteLine("User created successfully");
                     }
                     else

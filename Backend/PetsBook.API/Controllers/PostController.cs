@@ -1,5 +1,7 @@
 ﻿using Contracts;
+using Entities.Models;
 using Entities.Models.SocialFeed;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PetsBook.API.Common;
@@ -8,7 +10,7 @@ namespace PetsBook.API.Controllers
 {
     public class PostController : BaseApiController<PostController>
     {
-        public PostController(ILogger<PostController> logger, IUnitOfWork unitOfWork) : base(logger, unitOfWork) { }
+        public PostController(ILogger<PostController> logger, IUnitOfWork unitOfWork, UserManager<User> userManager) : base(logger, unitOfWork, userManager) { }
 
         [HttpGet]
         public IActionResult TestLogging()
