@@ -1,4 +1,5 @@
 ﻿using System.Linq.Expressions;
+using Core.Entities;
 
 namespace Core.Interfaces
 {

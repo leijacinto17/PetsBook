@@ -2,7 +2,7 @@
 using Infrastructure.Data;
 using Infrastructure.Data.Persistence;
 
-namespace Repository
+namespace Infrastructure.Data
 {
     public class UnitOfWork(DataContext context) : IUnitOfWork
     {
